@@ -1,0 +1,97 @@
+Sistem Informasi Prakerin (Sistem Praktek Kerja Industri) 
+
+Sistem Informasi Prakerin adalah  suatu sistem yang dapat memberikan informasi mengenai program praktek kerja industri secara online. 
+Sistem ini dirancang menggunakan framework codeigniter 4, cocok digunakan oleh instansi sekolah misalnya smk yang sedang berkegiatan Prakerin
+
+Berikut adalah deskripsi singkat sistem yang telah dirancang,
+
+Sistem Informasi prakerin ini memiliki 3 role user diantaranya :
+1. Administrator
+2. Pembimbing (Pembimbing sekolah dan pembimbing industri)
+3. Siswa
+
+Adapun fitur atau komponen yang ada dalam sistem informasi prakerin ini, yakni :
+
+=====================
+Administrator
+====================
+1. Master Data
+  -> Mengontrol Data Jurusan
+  -> Mengontrol Data Kelas
+  -> Mengontrol Data Siswa
+  -> Mengontrol Data Industri
+  -> Mengontrol Data Pembimbing
+
+2. Penempatan
+  -> Ada dua cara dalam menempatkan siswa sesuai industri yang dikehendaki, diantaranya 
+     1. Manual => admin dapat menempatkan siswa sesuai dengan indutri yang dipilih secara manual
+     2. Surat Permohoban => siswa dapat mengajukan surat permohonan yang ditujukan ke industri yang dipilihnya dan admin dapat meng acc permohonan tersebut atau menolaknya
+  -> Data Penempatan 
+
+3. Monitoring
+  -> Input Presensi (Approval atau Unapproval, dan input presensi manual)
+  -> Rekap Presensi
+  -> Jurnal Harian (Approval atau Unapproval)
+  -> Rekap Jurnal Harian
+  -> Laporan Akhir (Approval atau Unapproval)
+  -> Input Penilaian
+  -> Aspek Penilaian (Mengatur Aspek apa saja yang akan dinilai) 
+
+4. Agenda
+  -> Membuat Agenda Kegiatan
+
+5. Laporan
+  -> Export Laporan Data Siswa
+  -> Export Laporan Data Pembimbing
+  -> Export Laporan Data Penempatan
+  -> Export Kartu Penempatan
+  -> Export Laporan Nilai Per siswa, Per kelas dan Per industri 
+
+6. Export Surat Pengantar Prakerin ke industri (Tergenerate otomatis)
+7. Pengaturan
+8. Chatting dengan seluruh pembimbing (industri atau sekolah)
+
+
+======================
+Pembimbing
+====================
+1. Menginputkan Presensi Harian secara Manual atau Approval dan Unapproval presensi dari siswa
+2. Approval dan Unapproval jurnal harian
+3. Lihat rekap jurnal harian
+4. Approval dan Unapproval Laporan Akhir
+5. Input Penilaian siswa
+6. Chatting dengan admin atau pembimbing lain sesuai siswa binaan
+7. Export surat pengantar yang dikirim dari admin
+8. Lihat data siswa dari industri binaan
+
+========================
+Siswa
+=======================
+1. Input presensi harian
+2. Input jurnal Harian
+3. Mengajukan permohonan penempatan melalui surat pengantar
+4. Upload Laporan Akhir prakerin
+
+=======================================
+Untuk fitur lainnya bisa dilihat sendiri....
+Demo Aplikasi Ready....
+Jika ada pertanyaan bisa inbox saya...
+
+======================================
+DEMO APLIKASI PRAKERIN
+https://prakerin.dikatest.xyz/
+
+ADMIN 
+https://prakerin.dikatest.xyz/auth/admin
+Username : admin
+Password : admin123
+
+GURU PEMBIMBING
+https://prakerin.dikatest.xyz/auth/guru
+Username : guru
+Password : guru123
+
+SISWA
+https://prakerin.dikatest.xyz/login
+Username : siswa
+Password : siswa123

@@ -1,0 +1,11 @@
+1. Buat databse db_prakerin lalu Importkan file db_prakerin.sql ke phpmyadmin
+2. atur konfigurasi database di file .env (nama database, username, password)
+3. buka folder app/config/App.php 
+pada line 26 ubah : 	
+public $baseURL = 'http://localhost:8080/';
+public $baseURL = 'http://nama domain anda';
+4. Aplikasi sudah terpasang..
+5. Jika kesulitan harap hubungi saya
+=> Email : ardhikayoviyanto@gmail.com
+=> Atau inbox saya di PHPMU
+
